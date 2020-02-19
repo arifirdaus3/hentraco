@@ -10,7 +10,7 @@ import Index from '../Page/index.vue';
 Vue.use(Router)
 
 export default new Router({
-    base: '/~hentrac',
+    base: '/~hentraco',
     routes: [
         {
             path: '',
