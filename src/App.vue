@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style>
-  @import "./assets/sass/Global.css";
+<style lang="scss">
+  @import "./assets/sass/Global.scss";
 </style>
