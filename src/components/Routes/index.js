@@ -18,22 +18,22 @@ export default new Router({
 
         },
         {
-            path: 'about',
+            path: '/about',
             name: 'About',
             component: About
         },
         {
-            path: 'inquiry',
+            path: '/inquiry',
             name: 'Inquiry',
             component: Inquiry
         },
         {
-            path: 'location',
+            path: '/location',
             name: 'Location',
             component: Location
         },
         {
-            path: 'machine',
+            path: '/machine',
             name: 'Machine',
             component: Machine
         },
