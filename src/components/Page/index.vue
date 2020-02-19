@@ -1,21 +1,21 @@
 <template>
     <div>
-        <Header />
+        <!-- <Header /> -->
         <router-view />
-        <Footer />
+        <!-- <Footer /> -->
     </div>
 </template>
 
 <script>
 
 
-import Header from '../Layout/Header/Header';
-import Footer from '../Layout/Footer/Footer';
+// import Header from '../Layout/Header/Header';
+// import Footer from '../Layout/Footer/Footer';
 
 export default {
     components:{
-        Header,
-        Footer,
+        // Header,
+        // Footer,
     }
 }
 </script>
