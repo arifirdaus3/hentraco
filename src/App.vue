@@ -18,6 +18,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-  @import "./assets/sass/Global.scss";
+<style lang="less">
+  @import "./assets/css/styles.less";
 </style>

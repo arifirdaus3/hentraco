@@ -1,43 +1,47 @@
 <template>
-<div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <img src="<?php echo get_template_directory_uri(); ?>/image/logo.svg" alt="">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <div>
+        <header class="head">
+            <div class="container_def mx-auto d-block">
+                <div class="row">
+                    <div class="col-md-30">
+                        <div class="navbar-header">
+                            <a href="#" class="navbar-brand">
+                                <img v-if="this.$route.path == '/'" src="../../../assets/images/logo-headers_tln.png"
+                                    class="img-responsive" alt="logo">
+                                
+                                <img v-else src="../../../assets/images/logo-header-inside.png"
+                                    class="img-responsive" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-30 text-right">
+                        <div class="blocks_vw_menu pt-3">
+                            <a href="#">
+                                <img v-if="this.$route.path == '/'" src="../../../assets/images/bloc_menu_header.png"
+                                    class="img-responsive" alt="logo">
+                                
+                                <img v-else src="../../../assets/images/bloc_menu_header_inside.png" alt=""
+                                    class="img img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
-    <Cover v-if="this.$route.path != '/'"/>
-    <Slide v-else/>
-    
-</div>
+        </header>
+        <Cover v-if="this.$route.path != '/'" />
+        <Slide v-else />
+
+    </div>
 </template>
 
 <script>
-import Slide from '../Slide/Slide';
-import Cover from '../Cover/Cover';
+    import Slide from '../Slide/Slide';
+    import Cover from '../Cover/Cover';
 
-export default {
-    components:{
-        Slide,
-        Cover
+    export default {
+        components: {
+            Slide,
+            Cover
+        }
     }
-}
 </script>

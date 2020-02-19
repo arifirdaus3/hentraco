@@ -7,7 +7,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="../../../assets/images/backs_block_home1.jpg" alt="">
+                    <img src="../../../assets/images/backs_footers_nbottom.jpg" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <h4 class="display-4">sfafasf</h4>
                     </div>
