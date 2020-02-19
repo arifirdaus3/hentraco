@@ -9,7 +9,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Portfolio</a>
@@ -24,7 +24,9 @@
             </div>
         </div>
     </nav>
-    <Slide />
+    <Cover v-if="this.$route.path != '/'"/>
+    <Slide v-else/>
+    
 </div>
 </template>
 
