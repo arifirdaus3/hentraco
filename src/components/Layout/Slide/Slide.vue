@@ -1,5 +1,6 @@
 <template>
-	<div class="fcs-wrapper outers_fcs_wrapper prelatife wrapper-slide">
+<div></div>
+	<!-- <div class="fcs-wrapper outers_fcs_wrapper prelatife wrapper-slide">
 		<div class="container cont-fcs">
 			<div id="myCarousel_home" class="carousel slide" data-ride="carousel" data-interval="4500">
 				<div class="carousel-inner">
@@ -7,7 +8,7 @@
 					<div class="carousel-item activehome-slider-new">
 						<img class="w-100" src="../../../assets/images/fcs/fcs-1.jpg" alt="First slide"
 							style="background-repeat: no-repeat;background-size: cover;">
-						{# <img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>Layer-71.jpg" alt=""> #}
+						<img class="w-100 d-none d-sm-block" src="<?php echo $this->assetBaseurl; ?>Layer-71.jpg" alt="">
 						<div class="carousel-caption caption-slider-home">
 							<div class="prelative container">
 								<div class="bxsl_tx_fcs">
@@ -38,7 +39,7 @@
 			</div>
 
 		</div>
-	</div>
+	</div> -->
 </template>
 
 <script>
