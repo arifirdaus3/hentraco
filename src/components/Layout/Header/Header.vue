@@ -32,9 +32,12 @@
 
 <script>
 import Slide from '../Slide/Slide';
+import Cover from '../Cover/Cover';
+
 export default {
     components:{
-        Slide
+        Slide,
+        Cover
     }
 }
 </script>
