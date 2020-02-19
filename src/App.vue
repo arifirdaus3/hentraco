@@ -16,5 +16,5 @@ export default {
 </script>
 
 <style>
-  @import "./assets/sass/Global.scss";
+  @import "./assets/sass/Global.css";
 </style>

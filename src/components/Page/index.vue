@@ -1,7 +1,7 @@
 <template>
     <div>
         <Header />
-            <div class="p">anfajnfa</div>
+        <Slide />
         <Footer />
     </div>
 </template>
@@ -9,14 +9,14 @@
 <script>
 
 import Header from '../Layout/Header/Header';
+import Slide from '../Layout/Slide/Slide';
 import Footer from '../Layout/Footer/Footer';
 
 export default {
-    Header,
-    Footer
+    components:{
+        Header,
+        Slide,
+        Footer
+    }
 }
 </script>
-
-<style lang="scss">
-
-</style>

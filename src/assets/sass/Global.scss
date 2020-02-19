@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
-@fira : 'Fira Sans', sans-serif;
-@mon : 'Montserrat', sans-serif;
+$fira : 'Fira Sans', sans-serif;
+$mon : 'Montserrat', sans-serif;
 
 a,p,h1,h2,h3,h4,h5,h6{
-  font-family: @mon;
+  font-family: $mon;
   margin-bottom: 0;
 }
 
@@ -53,7 +53,7 @@ section.header{
           margin-top: 25px;
           width: auto;
           a{
-            font-size: 13px;color: #ffffff;font-family: @mon;text-decoration: none;text-transform: uppercase;font-weight: 500;
+            font-size: 13px;color: #ffffff;font-family: $mon;text-decoration: none;text-transform: uppercase;font-weight: 500;
             img{
               margin-right: 15px;
               position: relative;
@@ -74,7 +74,7 @@ section.header{
           a.nav-link{
             font-size: 15px;font-weight: 400;color: #ffffff;
             margin-right: 15px; 
-            font-family: @mon;
+            font-family: $mon;
           }
         }
         li.nav-item.contact{
@@ -150,53 +150,53 @@ section.header{
 
   color: #fff;
   text-align: center;
-  .container{
+  .prelative.container{
     max-width: inherit;
     width: auto;
+    .bxsl_tx_fcs{
+      max-width: 860px;
+      box-shadow: none; text-shadow: none;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      h3, h5, p{
+        margin: 0;
+        line-height: 1.2;
+        margin-bottom: 1.3rem;
+      }
+      h5{
+        font-size: 19px;
+        color: #050607;
+        font-weight: 400;
+        margin-bottom: 0.4rem;
+      }
+      h3{
+        font-size: 34px;
+        color: #292b74;
+        font-weight: 600;
+        line-height: 1.1;
+        margin-bottom: 0.6rem;
+      }
+      p{
+        font-size: 13px;
+        font-weight: 400;
+        color: #474747;
+      }
+      a.btns_defaults_blue{
+        background: none;
+        background-color: transparent; border-radius: 0px;
+  
+        font-size: 13px;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 1px;
+        background-color: #223b79;
+  
+      }
+  
+    }
   }
 
-  .bxsl_tx_fcs{
-    max-width: 860px;
-    box-shadow: none; text-shadow: none;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    h3, h5, p{
-      margin: 0;
-      line-height: 1.2;
-      margin-bottom: 1.3rem;
-    }
-    h5{
-      font-size: 19px;
-      color: #050607;
-      font-weight: 400;
-      margin-bottom: 0.4rem;
-    }
-    h3{
-      font-size: 34px;
-      color: #292b74;
-      font-weight: 600;
-      line-height: 1.1;
-      margin-bottom: 0.6rem;
-    }
-    p{
-      font-size: 13px;
-      font-weight: 400;
-      color: #474747;
-    }
-    a.btns_defaults_blue{
-      background: none;
-      background-color: transparent; border-radius: 0px;
-
-      font-size: 13px;
-      font-weight: 400;
-      color: #fff;
-      letter-spacing: 1px;
-      background-color: #223b79;
-
-    }
-
-  }
 }
 
 .mw540{
