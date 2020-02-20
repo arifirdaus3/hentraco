@@ -4,6 +4,7 @@ import About from '../Page/About/About';
 import Inquiry from '../Page/Inquiry/Inquiry';
 import Location from '../Page/Location/Location';
 import Machine from '../Page/Machine/Machine';
+import MachineDetail from '../Page/Machine/Machine_detail';
 import Index from '../Page/index.vue';
 
 
@@ -36,6 +37,11 @@ export default new Router({
             path: '/machine',
             name: 'Machine',
             component: Machine
+        },
+        {
+            path: '/machinedetail',
+            name: 'MachineDetail',
+            component: MachineDetail
         },
 
 

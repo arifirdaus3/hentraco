@@ -1,12 +1,13 @@
 <template>
     <div>
-
+        <div class="py-3"></div>
 
         <section class="blocks_about-1 py-5">
             <div class="container_def mx-auto d-block">
                 <div class="inners py-3">
                     <div class="row">
-                        <div class="col-md-35 content-texts">
+                        <div class="col-md-32 content-texts">
+                            <div class="py-2"></div>
                             <h3>C.V. Hentraco’s History</h3>
                             <p>C.V. Hentraco’s machinery and industrial machines trading footprint includes the most
                                 active trading warehouse in East Java operating from Surabaya and in West Java operating
@@ -18,7 +19,7 @@
                                 has made us Indonesia’s leading in High precision and high performance Lathe, Milling,
                                 CNC, machining center and more.</p>
                         </div>
-                        <div class="col-md-25">
+                        <div class="col-md-28">
                             <div class="pictures rn"><img src="../../../assets/images/banner-about-1.jpg" alt=""
                                     class="img img-fluid"></div>
                         </div>
@@ -35,8 +36,9 @@
                             <div class="pictures rn"><img src="../../../assets/images/banner-about-2.jpg" alt=""
                                     class="img img-fluid"></div>
                         </div>
-                        <div class="col-md-35 content-texts">
-                            <h2>Why C.V. Hentraco as your partner</h2>
+                        <div class="col-md-35 content-texts pt-250">
+
+                            <h3>Why C.V. Hentraco as your partner</h3>
                             <p>It has become a guarantee that products that supplied from C.V. Hentraco will deliver
                                 high performance. Our industrial machineries are high performance, high precision,
                                 strong, durable, and reliable. <br><br>As a sole agent and distributors for First
@@ -68,12 +70,14 @@
             </div>
         </section>
 
+        <div class="py-3"></div>
         <section class="blocks_about-1 py-5">
             <div class="container_def mx-auto d-block">
                 <div class="inners py-3">
                     <div class="row">
-                        <div class="col-md-35 content-texts">
-                            <h2>C.V. Hentraco’s Commitment</h2>
+                        <div class="col-md-32 content-texts">
+                            <div class="py-2"></div>
+                            <h3>C.V. Hentraco’s Commitment</h3>
                             <p>C.V. Hentraco maintains a significant investment in relationship with principals and
                                 stock availability, also at research and development with a committed team of
                                 professionals in it’s technical operation. We will only promote products that comply
@@ -86,7 +90,7 @@
                                 opening horizon for new and easier ways to obtain the same results in much easier way.
                             </p>
                         </div>
-                        <div class="col-md-25">
+                        <div class="col-md-28">
                             <div class="pictures rn"><img src="../../../assets/images/banner-about-3.jpg" alt=""
                                     class="img img-fluid"></div>
                         </div>
@@ -94,6 +98,7 @@
                 </div>
             </div>
         </section>
+        <div class="py-2"></div>
     </div>
 </template>
 
@@ -102,7 +107,3 @@
 
     }
 </script>
-
-<style>
-
-</style>
