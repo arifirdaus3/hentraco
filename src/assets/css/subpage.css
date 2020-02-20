@@ -75,8 +75,8 @@ section.insides_page.pg_default.pg-locations .inners {
   padding: 0.2rem 0.45rem;
   border-radius: 0px;
 }
-.lists_default_datacategorys .items .info .rghts_icon a i.fa {
-  font-size: 13px;
+.lists_default_datacategorys .items .info .rghts_icon a i.fas {
+  font-size: 15px;
   color: #fff;
 }
 .content-texts {
@@ -280,7 +280,6 @@ section.blocks_about-2 .pictures.rn {
   left: -85px;
 }
 .outer-blok-black-menuresponss-hides {
-  display: none;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -289,6 +288,9 @@ section.blocks_about-2 .pictures.rn {
   background-size: cover;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .outer-blok-black-menuresponss-hides .blocksn_logo-centers img {
   position: relative;
@@ -309,7 +311,13 @@ section.blocks_about-2 .pictures.rn {
   display: block;
   text-align: center;
 }
-.outer-blok-black-menuresponss-hides .blocks-info-menubtm i.fa {
+.outer-blok-black-menuresponss-hides .blocks-info-menubtm i.fab {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.outer-blok-black-menuresponss-hides .blocks-info-menubtm i.far {
   font-size: 32px;
   color: #fff;
   text-align: center;

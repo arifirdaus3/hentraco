@@ -19,35 +19,18 @@
 
             <div class="lists_default_datacategorys">
                 <div class="row">
-                    <div class="col-md-15">
+                    <div class="col-md-15" v-for="(item, index) in items" :key="index">
                         <div class="items prelatife">
                             <img src="../../../assets/images/ex-products_1.jpg" alt="" class="img img-fluid">
                             <div class="info">
                                 <div class="row">
                                     <div class="col-40">
-                                        <h6>Lathe Machine</h6>
+                                        <h6>{{ item.head }}</h6>
                                     </div>
                                     <div class="col-20 text-right">
                                         <div class="rghts_icon">
-                                            <router-link to="/machinedetail" class="btn"><i class="fa fa-chevron-right"></i></router-link>
+                                            <router-link to="/machinedetail" class="btn"><i class="fas fa-chevron-right"></i></router-link>
                                             <!-- <a class="btn" href="#"><i class="fa fa-chevron-right"></i></a> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-15">
-                        <div class="items prelatife">
-                            <img src="../../../assets/images/ex-products_2.jpg" alt="" class="img img-fluid">
-                            <div class="info">
-                                <div class="row">
-                                    <div class="col-40">
-                                        <h6>Lathe Machine</h6>
-                                    </div>
-                                    <div class="col-20 text-right">
-                                        <div class="rghts_icon">
-                                            <a class="btn" href="#"><i class="fa fa-chevron-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +51,55 @@
 </template>
 
 <script>
+
 export default {
-    
-}
+  name: "App",
+  components: {
+    // FontAwesomeIcon
+  },
+  data: () => ({
+      dialog: false,
+      drawer: true,
+      fav: true,
+      menu: false,
+      message: false,
+      hints: true,
+      items: [{
+          head: 'Lathe Machine',
+          image: 'ex-products_1',
+          link: '/machinedetail'
+        },
+        {
+          head: 'Milling Machine',
+          image: 'API',
+          link: '/machinedetail'
+        },
+        {
+          head: 'EDM Machine',
+          image: 'API',
+          link: '/machinedetail'
+        },
+        {
+          head: 'CNC Machine',
+          image: 'API',
+          link: '/machinedetail'
+        },
+        {
+          head: 'Grinding Machine',
+          image: 'API',
+          link: '/machinedetail'
+        },
+        {
+          head: 'DRO Machine',
+          image: 'API',
+          link: '/machinedetail'
+        },
+        {
+          head: 'Others',
+          image: 'API',
+          link: '/machinedetail'
+        },
+      ],
+    }),
+};
 </script>

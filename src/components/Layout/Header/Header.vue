@@ -55,13 +55,13 @@
                     <div class="py-2 my-1"></div>
                     <div class="row justify-content-center">
                         <div class="col-md-30 col-sm-30 col-6">
-                            <i class="fa fa-whatsapp"></i>
+                            <i class="fab fa-whatsapp"></i>
                             <div class="py-1"></div>
                             <p>Click to Whatsapp Chat<br>
                                 <a href="tel:+62816848361">081 6848 361</a></p>
                         </div>
                         <div class="col-md-30 col-sm-30 col-6">
-                            <i class="fa fa-envelope-o"></i>
+                            <i class="far fa-envelope"></i>
                             <div class="py-1"></div>
                             <p>Send Us Email <br>
                                 <a target="_blank" href="mailto:info@thekreator.com">info@hentraco.co.id</a></p>
@@ -93,12 +93,22 @@
         mounted() {
             // Your JQuery code here
             $(function () {
+                    // $(".outer-blok-black-menuresponss-hides").css("display", "table");
+                
                 // show and hide menu responsive
                 $('a.showmenu_barresponsive').on('click', function () {
+                    console.log('sukses')
+                    // $(".outer-blok-black-menuresponss-hides").css("display", "table");
                     $('.outer-blok-black-menuresponss-hides').slideToggle('slow');
                     return false;
                 });
                 $('a.closemrespobtn').on('click', function () {
+                    console.log('sukses2')
+                    $('.outer-blok-black-menuresponss-hides').slideUp('slow');
+                    return false;
+                });
+                $('li').on('click', function () {
+                    console.log('sukses3')
                     $('.outer-blok-black-menuresponss-hides').slideUp('slow');
                     return false;
                 });
